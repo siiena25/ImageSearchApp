@@ -56,7 +56,17 @@ python3 export_models.py               # → models/*.onnx
 python3 export_catalog_for_android.py  # → android_bundle/
 ```
 
-Then copy the outputs into the Android assets directory.
+Copy the outputs into the Android assets directory:
+
+```bash
+mkdir -p app/src/main/assets/models
+mkdir -p app/src/main/assets/catalog
+cp models/*.onnx          app/src/main/assets/models/
+cp -r android_bundle/*    app/src/main/assets/catalog/
+```
+
+> **Note:** These asset directories are listed in `.gitignore` and are not tracked
+> in the repository. The app will not build without them.
 
 ## Building
 
