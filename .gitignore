@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local config (contains SDK path, must not be committed)
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+*.iml
+
+# Kotlin incremental compilation caches
+.kotlin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# APK / AAB / release artifacts
+*.apk
+*.aab
+*.ap_
+
+# Keystore files
+*.jks
+*.keystore
+
+# Proguard mapping (regenerated on each release build)
+**/mapping.txt
+
+# Test results / coverage
+**/test-results/
+**/jacoco/
+
+# Large ML assets — not tracked in git (distribute separately)
+app/src/main/assets/models/
+app/src/main/assets/catalog/
+

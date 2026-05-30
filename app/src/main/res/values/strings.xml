@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageSearch</string>
+    <string name="search_placeholder">Search products</string>
+    <string name="search_by_photo">Search by photo</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_camera_search">Search by photo</string>
+    <string name="cd_open_gallery">Open gallery</string>
+    <string name="cd_zoom">Zoom</string>
+    <string name="cd_capture">Take photo</string>
+    <string name="cd_switch_camera">Switch camera</string>
+    <string name="cd_torch">Toggle torch</string>
+</resources>
